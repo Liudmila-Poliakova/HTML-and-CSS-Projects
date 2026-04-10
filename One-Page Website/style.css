@@ -19,3 +19,26 @@ p {
 ul {
     list-style-type: square;
 }
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

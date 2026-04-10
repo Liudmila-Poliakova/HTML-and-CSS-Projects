@@ -7,24 +7,55 @@
 
 <body>
 
-    <h1>Welcome to My Website</h1>
+    <!-- NAV -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <p>Hello! My name is Liudmila.</p>
+    <!-- HOME SECTION -->
+    <section id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Hello! My name is Liudmila Poliakova.</p>
 
-    <p>This is my first one-page website.</p>
+        <!-- IMAGE -->
+        <<img src="https://picsum.photos/200" alt="Sample Image">
+    </section>
 
-    <h2>About Me</h2>
-    <p>I am learning HTML and CSS.</p>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am learning HTML and CSS.</p>
+    </section>
 
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Gaming</li>
-        <li>Gym</li>
-        <li>Watching movies</li>
-    </ul>
+    <!-- IFRAME SECTION -->
+    <section>
+        <h2>Watch Video</h2>
+        <iframe width="300" height="200"
+src="https://www.youtube.com/embed/9bZkp7q19f0">
+</iframe>
+    </section>
 
-    <h2>Contact</h2>
-    <p>Email: lpoliakova.aol@gmail.com</p>
+    <!-- CONTACT FORM -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            Name:<br>
+            <input type="text" name="name"><br><br>
+
+            Email:<br>
+            <input type="email" name="email"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 My First Website</p>
+    </footer>
 
 </body>
 </html>
